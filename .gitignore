@@ -1,0 +1,33 @@
+# Private Keys - DO NOT COMMIT
+*.key.pem
+*/private/*
+
+# Temporary files
+.DS_Store
+*.swp
+*.swo
+*~
+~$*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Screenshots (if you want to keep them local only)
+# screenshots/*.png
+
+# OpenSSL database files (not needed in repo)
+pki/root/index.txt*
+pki/signing/index.txt*
+pki/root/serial*
+pki/signing/serial*
+pki/root/.rand
+pki/signing/.rand
+
+# Generated certificates (optional - you might want to exclude these)
+# Uncomment if you don't want certs in GitHub:
+# *.cert.pem
+# *.csr.pem
+# pki/root/newcerts/*
+# pki/signing/newcerts/*
